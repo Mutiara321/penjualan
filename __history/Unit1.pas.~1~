@@ -1,0 +1,40 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus;
+
+type
+  TForm1 = class(TForm)
+    MainMenu1: TMainMenu;
+    FILE1: TMenuItem;
+    FILE2: TMenuItem;
+    RANSAKSI1: TMenuItem;
+    RANSAKSI2: TMenuItem;
+    LOGIM1: TMenuItem;
+    LOGOUT1: TMenuItem;
+    KATEGORI1: TMenuItem;
+    KATEGORI2: TMenuItem;
+    SUPPLIER1: TMenuItem;
+    SUPPLIER2: TMenuItem;
+    PENJUALAN1: TMenuItem;
+    PEMBELIAN1: TMenuItem;
+    LAPORAN1: TMenuItem;
+    LAPORANSTOKBARANG1: TMenuItem;
+    LAPORANSTOKBARANG2: TMenuItem;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+end.
